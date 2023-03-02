@@ -7,6 +7,7 @@ module.exports = {
     extend: {
       lineHeight: {
         '110%': '110%',
+        '180%': '180%',
       }
     },
   },
