@@ -2,7 +2,7 @@ import React from "react";
 
 function Card(props) {
   return (
-    <div className="flex flex-col justify-between p-12  bg-[#f9f9f9]">
+    <div className="flex flex-col justify-between p-12 bg-[#f9f9f9] hover:rounded-3xl hover:bg-black transition-all duration-300">
       <p className="text-2xl py-2">{props.title}</p>
       <p className="text-lg leading-180% py-8 text-[#777777]">
        {props.text}

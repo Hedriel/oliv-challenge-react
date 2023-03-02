@@ -8,8 +8,11 @@ module.exports = {
       lineHeight: {
         '110%': '110%',
         '180%': '180%',
-      }
+      },
     },
   },
   plugins: [],
 }
+
+
+
