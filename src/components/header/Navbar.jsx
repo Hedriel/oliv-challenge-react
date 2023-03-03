@@ -11,17 +11,17 @@ export function Navbar() {
     },
     {
       label: "About",
-      route: "#about",
+      route: "#why",
     },
     {
       label: "Blog",
-      route: "#blog",
+      route: "#",
     },
   ];
   return (
     <ul className="flex items-center w-full justify-around md:justify-end md:gap-7 ">
       {navItems.map(({ label, route }) => (
-        <li className="text-sm hover:border-b border-black" 
+        <li className="navitem text-sm hover:border-b border-black" 
         key={route}>
           <a href={route}>{label}</a>
         </li>
@@ -31,7 +31,8 @@ export function Navbar() {
   );
 }
 
-const navItem = document.querySelectorAll('li a')
+const navItem = document.querySelectorAll('.navitem')
+console.log(navItem)
     navItem.forEach(navItem =>{
         navItem.addEventListener('click', () => {
             document.querySelector('.active')?.classList.remove('active')

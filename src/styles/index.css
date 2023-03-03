@@ -7,6 +7,22 @@
     font-family: 'Manrope', sans-serif;
 }
 
+html
+{
+    scroll-behavior: smooth;
+}
+
 .active{
     border-bottom: 1px solid black;
+}
+
+.rounded-r-r:hover{
+    border-bottom-right-radius: 25%;
+}
+
+a.anchor{
+    display: block;
+    position: relative;
+    top: -50px;
+    visibility: hidden;
 }

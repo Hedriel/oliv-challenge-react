@@ -1,6 +1,5 @@
 import React from 'react'
-import { Button } from '../global/Button';
-import Card from './Card'
+import {Card} from './Card'
 const cardItems = [
   {
     title: "Brand Strategy",
@@ -25,8 +24,9 @@ const cardItems = [
 ];
 export function Services() {
   return (
-    <div className='services flex justify-center'>
-        <div className="grid md:grid-cols-2 xl:grid-cols-4 gap-8 max-w-screen-2xl my-4 lg:my-16 mx-10 md:mx-20">
+    <div  className='flex justify-center'>
+      <a id='services' className='anchor'></a>
+        <div className="grid md:grid-cols-2 xl:grid-cols-4 gap-8 max-w-screen-2xl my-4 lg:my-20 mx-10 md:mx-20">
         {cardItems.map((card) =>
           <Card key={card.title}
            title={card.title}
