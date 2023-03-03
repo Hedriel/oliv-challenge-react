@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { Button } from "../global/Button";
 export function Navbar() {
   const navItems = [
@@ -32,7 +33,6 @@ export function Navbar() {
 }
 
 const navItem = document.querySelectorAll('.navitem')
-console.log(navItem)
     navItem.forEach(navItem =>{
         navItem.addEventListener('click', () => {
             document.querySelector('.active')?.classList.remove('active')

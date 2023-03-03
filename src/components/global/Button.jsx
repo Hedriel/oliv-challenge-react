@@ -5,8 +5,17 @@ export function Button(props) {
         return (`bg-black text-white`)
       }
     }
+
+  function getSize(){
+    if (props.size == "small") {
+      return (`text-xs px-2 py-2`)
+    }else{
+      return(`px-4 py-2.5`)
+    }
+  }
+
     return (
-      <button className={`border border-black rounded-full px-4 py-2 shrink-0 transition-all hover:scale-110 ${getColor()}`}>
+      <button className={`border border-black rounded-full transition-all hover:scale-110 ${getSize()} ${getColor()}`}>
         {props.text}
       </button>
     );
