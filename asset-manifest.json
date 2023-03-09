@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Hedriel/oliv-challenge-react/static/css/main.1f5e5b9c.css",
+    "main.js": "/Hedriel/oliv-challenge-react/static/js/main.70178f4d.js",
+    "static/media/vision-design.png": "/Hedriel/oliv-challenge-react/static/media/vision-design.314e98a529bc74add59f.png",
+    "static/media/invision-studio.png": "/Hedriel/oliv-challenge-react/static/media/invision-studio.4f06a244f96802e19eab.png",
+    "static/media/design-bors.png": "/Hedriel/oliv-challenge-react/static/media/design-bors.c7f0a986f4367afaa985.png",
+    "static/media/square-media.png": "/Hedriel/oliv-challenge-react/static/media/square-media.b8a5c0c8b0df133e54c5.png",
+    "static/media/logo.svg": "/Hedriel/oliv-challenge-react/static/media/logo.a643aec834b1499a27fdd71ac916c5fd.svg",
+    "index.html": "/Hedriel/oliv-challenge-react/index.html",
+    "main.1f5e5b9c.css.map": "/Hedriel/oliv-challenge-react/static/css/main.1f5e5b9c.css.map",
+    "main.70178f4d.js.map": "/Hedriel/oliv-challenge-react/static/js/main.70178f4d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1f5e5b9c.css",
+    "static/js/main.70178f4d.js"
+  ]
+}
