@@ -10,6 +10,14 @@
 html
 {
     scroll-behavior: smooth;
+    transition: all 0.3s ease;
+}
+
+html.dark{
+    --tw-bg-opacity: 1;
+    background-color: rgb(38 38 38 / var(--tw-bg-opacity));
+    color: white;
+
 }
 
 .active{
